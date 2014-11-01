@@ -27,7 +27,7 @@ public class ProdutoIteravel implements Comparable{
 	}
 		
 	public int compareTo(Object o){		
-		//Ordenando pela quantidade em estoque
+		//Comparando a quantidade em estoque
 		return this.estoque - ((ProdutoIteravel) o).getEstoque();				
 	}
 	
